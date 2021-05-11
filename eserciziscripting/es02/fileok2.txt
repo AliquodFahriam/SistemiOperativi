@@ -1,0 +1,1 @@
+questo file contiene la stringa cane e gatto

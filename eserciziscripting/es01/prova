@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mv $(ls -l | awk '/^[-l].*a[0-9]+$/ {printf("%s ",$9)}') dirA
+mv $(ls -l | awk '/^[-l].*b[0-9]+$/ {printf("%s ",$9)}') dirB
